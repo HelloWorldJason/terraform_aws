@@ -8,7 +8,7 @@ resource "aws_instance" "this" {
     key_name = aws_key_pair.ssh.key_name  #key_name是aws_instance中的一个参数，是指实例配置配置秘钥登录配置初始化主机。 
     user_data = file("set_nginx.sh")      #读取同级别目录下的文件
 
-    tags = {   # tags主要在EC2中的tag进行加一个tags标签，方便查看读取维护.
+    tags = {   # tags主要在EC2中的tag进行加一个tags标签主要在控制台实例中name字段，方便查看读取维护.
         Name = "Nginx-web-server" 
     }
 }
