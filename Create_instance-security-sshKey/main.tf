@@ -11,7 +11,7 @@ resource "aws_instance" "this" {
 #添加ssh秘钥
 resource "aws_key_pair" "ssh" {
     key_name = "jason"        #安全组中key的名字
-    public_key = "xxxooookkkkG6GJ7oii0HwOwk46vlF0V4XT1RIdXwd6+vc63RE1xBmnJFiJibgwEmK9iBSxEw8yeC0o5JkzWofHjXyVePmfz5VWAHgLWxZ+CYDzjEvan37UDfVIQgREs5nHx57u7wH2MmwXZWoZTWgsXGuL16Zy5Bxv1AYj6bLFwdNtdhIXFWg+FikgeayjvEeXYNcX491Wyj2O33pYFQMOT7lzeARreMfb6mwWZbxBqFH6VoJdCzJnqq5viweZbYfWnjI21LKFvdelzuUm4WI5zN168OZR8i4pNWvfi0U/8ivqEACTVPPqXdpFxU4waIaYLvdX3y9/uLz9uaOPbyNbKlTE= kuan.liu@facedns.com"
+    public_key = "xxxooookkkkG6GJ7oii0HwOwk46vlF0V4XT1RIdXwd6+vc63RE1xBmnJFiJibgwEmK9iBSxEw8yeC0o5JkzWofHjXyVePmfz5VWAHgLWxZ+CYDzjEvan37UDfVIQgREs5nHx57u7wH2MmwXZWoZTWgsXGuL16Zy5Bxv1AYj6bLFwdNtdhIXFWg+FikgeayjvEeXYNcX491Wyj2O33pYFQMOT7lzeARreMfb6mwWZbxBqFH6VoJdCzJnqq5viweZbYfWnjI21LKFvdelzuUm4WI5zN168OZR8i4pNWvfi0U/8ivqEACTVPPqXdpFxU4waIaYLvdX3y9/uLz9uaOPbyNbKlTE= test@facedns.com"
 }
 
 #开放22端口
