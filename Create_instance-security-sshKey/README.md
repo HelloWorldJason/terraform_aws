@@ -5,4 +5,4 @@
 文件中具体做了描述
 
 ## FAQ
-https://terraform.io/docs/providers/aws/index.html
+https://terraform.io
