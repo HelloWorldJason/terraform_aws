@@ -21,5 +21,5 @@ resource "aws_security_group_rule" "ssh" {
     to_port = 22        #结束端口
     protocol = "tcp"    #连接协议tcp/udp/http/all
     cidr_blocks = ["0.0.0.0/0"]   #允许访问的网段
-    security_group_id = "sg-0a62ffb12ae10aa55"   #默认AWS的default安全组，ressource创建的主机默认都会加入该组下。
+    security_group_id = "sg-0a62ffb12ae1"   #默认AWS的default安全组，ressource创建的主机默认都会加入该组下。可以通过控制台查看
 }
